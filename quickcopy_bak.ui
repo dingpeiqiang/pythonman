@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QWidget" name="formwidget" native="true">
+      <widget class="QLabel" name="source_label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>15</y>
+         <width>100</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>源文件目录</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="start_time_label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>85</y>
+         <width>54</width>
+         <height>12</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>开始时间</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="target_label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>100</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>目标文件目录</string>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="start_time">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>80</y>
+         <width>194</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="source_file_dir">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>10</y>
+         <width>400</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="target_file_dir">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>45</y>
+         <width>400</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="start_export">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>120</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开始导出</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="log">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>751</width>
+         <height>331</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="sourceButton">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>10</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>浏览</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="targetButton">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>50</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>浏览</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>787</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
